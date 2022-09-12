@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import NavLinks from './NavLinks'
 
 const NavDesktop = () => {

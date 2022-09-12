@@ -1,4 +1,4 @@
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import NavDesktop from "./NavDesktop";
 import NavMobile from "./NavMobile";
 export default function NavBar() {

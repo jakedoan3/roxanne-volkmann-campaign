@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import {FiMenu} from "react-icons/fi"
 import {AiOutlineClose} from "react-icons/ai"
 import NavLinks from './NavLinks'
