@@ -1,0 +1,328 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: lightskyblue;
+    
+}
+
+p {
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h3 {
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+::placeholder {
+    color: red;
+    background-color: whitesmoke;
+    opacity: .5;
+}
+
+.submitContactButton {
+    background-color: red;
+    color: white;
+    border: 0;
+}
+
+.home {
+    background-image: url("politician-stock-home.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.platform {
+    background-image: url("politician-stock-connect.jpeg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: rgb(80, 146, 245);
+    height: 100vh;
+    width: 100vw;
+}
+
+.platform-text {
+    margin-right: 60%;
+    background-color: rgb(80, 146, 245);
+    height: 100vh;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
+    padding: 10px;
+
+}
+
+.about {
+    background-image: url("edgewater-aerial.jpeg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: rgb(80, 146, 245);
+    height: 100vh;
+    width: 100vw;
+}
+
+.about-text {
+    margin-right: 60%;
+    background-color: rgb(80, 146, 245);
+    height: 100vh;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.connect {
+    background-image: url("edgewater.jpeg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: rgb(80, 146, 245);
+    height: 100vh;
+    width: 100vw;
+}
+
+.connect-text {
+    margin-right: 60%;
+    background-color: rgb(80, 146, 245);
+    height: 100vh;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
+    padding: 10px;
+    
+}
+
+.donate {
+    background-image: url("edgewater.jpeg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: rgb(80, 146, 245);
+    height: 100vh;
+    width: 100vw;
+}
+
+.donate-text {
+    
+    margin-right: 60%;
+    background-color: rgb(80, 146, 245);
+    padding: 10px;
+    height: 100vh;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.homeheader {
+    margin: 0;
+}
+.nav {
+    background-color: lightskyblue;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    padding-bottom: 10px;
+}
+
+.site-title {
+    font-size: 2rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.ward {
+    font-size: 1.25rem;
+    padding-left: 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.nav li.active {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.nav li:hover {
+    background-color: lightblue;
+}
+
+.navmobile {
+    display: none;
+}
+
+.smallForm {
+    padding: 2%;
+    margin-left: 50%;
+    margin-top: 20%;
+    font-size: 18px;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(80, 146, 245);
+    border-radius: 5px;
+}
+
+.thankYou {
+    text-align: center;
+}
+
+.homeJoin {
+    margin: 0%;
+    font-size: 36px;
+    border-radius: 5px;
+}
+
+.contactForm {
+    margin: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.emailInput {
+    
+    display: flex;
+    flex-direction: column;
+}
+.zipInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.donate-button {
+    background-color: red;
+    font-size: 1rem;
+}
+
+.donate-button-main {
+    background-color: red;
+    font-size: 2rem;
+    color: white;
+    border: whitesmoke;
+}
+
+.contact-form-main {
+    padding: 0;
+}
+
+.donateForm {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40%;
+}
+
+.donation-amount{
+    height: 5vh;
+    width: 20vw;
+    font-size: 1rem;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+
+
+@media (max-width:700px) {
+    .navdesktop {
+        display: none;
+    }
+
+    .navmobile {
+        display: flex;
+        align-items: center;
+    }
+
+    .site-title {
+        font-size: 1rem;
+    }
+
+    .ward {
+        font-size: .5rem;
+    }
+
+    .hamburger {
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+
+   ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 30%;
+        background-color: rgb(80, 146, 245);
+    }
+    li {
+        padding-left: 10%;
+    }
+
+    .smallForm {
+        margin-top: 10vh;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: left;
+    }
+
+    .emailInput{
+        width: 20%;
+    }
+
+    .zipInput{
+        width: 10%;
+    }
+    
+    .homeJoin {
+        font-size: 14px;
+    }
+
+    .contactForm {
+        margin: 0%;
+        display: flex;
+        justify-content: left
+    }
+
+    .donate-button {
+        padding-left: 50%;
+    }
+}
