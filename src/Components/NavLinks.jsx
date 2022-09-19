@@ -21,6 +21,7 @@ const NavLinks = () => {
       <CurrLink to="/about">About Roxanne</CurrLink>
       <CurrLink to="/platform">Platform</CurrLink>
       <CurrLink to="/connect">Get Connected</CurrLink>
+      <CurrLink to="/volunteer">Volunteer</CurrLink>
       <li>
         <a href="https://www.facebook.com/">
           <img  src="/icons8-facebook-f-50.png" alt="Facebook" width="20vw"/>

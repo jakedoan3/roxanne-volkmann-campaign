@@ -2,26 +2,26 @@ import React, { useState } from "react";
 
 const ContactForm = () => {
   const [email, setEmail] = useState("");
-  const [zip, setZip] = useState("");
+  // const [zip, setZip] = useState("");
   const [thankYou, setThankYou] = useState(false)
 
   const handleEmail = (e) => {
     setEmail(e.target.value);
   };
-  const handleZip = (e) => {
-    setZip(e.target.value);
-  };
+  // const handleZip = (e) => {
+  //   setZip(e.target.value);
+  // };
 
   const submitContact = async (e) => {
     e.preventDefault();
-    if (zip.length !== 5) {
-      alert("Please enter a valid 5-digit ZIP Code");
-    } else {
+    // if (zip.length !== 5) {
+    //   alert("Please enter a valid 5-digit ZIP Code");
+    // } 
+    
       setEmail("");
-      setZip("");
+      // setZip("");
       setThankYou(true)
       console.log("Successful submit!")
-    }
   };
 
   return (
@@ -38,14 +38,14 @@ const ContactForm = () => {
               name="email"
             />
           </label>
-          <label className="zipInput">
+          {/* <label className="zipInput">
             <input 
             placeholder="ZIP*"
             type="number" 
             value={zip} 
             onChange={handleZip} 
             name="zip" />
-          </label>
+          </label> */}
         
           <input 
           className="submitContactButton"

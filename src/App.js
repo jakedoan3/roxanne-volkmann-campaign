@@ -5,14 +5,18 @@ import Platform from "./Components/Platform";
 import Donate from "./Components/Donate";
 import Connect from "./Components/Connect";
 import Home from "./Components/Home";
-import {Route, Routes} from "react-router-dom"
+import {Route, Routes, Link} from "react-router-dom"
 
 function App() {
   
 
   return (
-    <div>
+    <div >
+      
       <NavBar />
+      <Link to="/" className="site-title">
+        <img className="main-logo" src="/volkmann-logo.png" alt="Roxanne Volkmann for Ward 48" />
+      </Link>
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/donate" element={<Donate/>} />
