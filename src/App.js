@@ -5,6 +5,10 @@ import Platform from "./Components/Platform";
 import Donate from "./Components/Donate";
 import Connect from "./Components/Connect";
 import Home from "./Components/Home";
+import Volunteer from "./Components/Volunteer"
+import Vote from "./Components/Vote";
+import Events from "./Components/Events";
+
 import {Route, Routes, Link} from "react-router-dom"
 
 function App() {
@@ -22,7 +26,10 @@ function App() {
         <Route path="/donate" element={<Donate/>} />
         <Route path="/connect" element={<Connect/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/events" element={<Events/>} />
         <Route path="/platform" element={<Platform/>} />
+        <Route path="/volunteer" element={<Volunteer/>} />
+        <Route path="/vote" element={<Vote/>} />
       </Routes>
       
       {/* <About />

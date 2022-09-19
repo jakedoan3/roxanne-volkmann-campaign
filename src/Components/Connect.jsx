@@ -6,7 +6,7 @@ const Connect = () => {
     <div>
       <div className='connect'>
         <div className='connect-text'>
-        <h1>
+        <h1 className='pageTitle'>
         Stay Connected with Roxanne
         </h1>
         <p>

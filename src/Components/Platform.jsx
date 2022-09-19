@@ -4,7 +4,7 @@ const Platform = () => {
   return (
     <div className='platform'>
       <div className='platform-text'>
-        <h1>
+        <h1 className='pageTitle'>
           Platform
         </h1>
         <h3>Lorem Ipsum</h3>
