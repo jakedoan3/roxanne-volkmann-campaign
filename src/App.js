@@ -1,12 +1,12 @@
 import React from "react";
 import About from "./Components/About";
 import NavBar from "./Components/NavBar";
-import Platform from "./Components/Platform";
+import Issues from "./Components/Issues";
 import Donate from "./Components/Donate";
 import Connect from "./Components/Connect";
 import Home from "./Components/Home";
 import Volunteer from "./Components/Volunteer"
-import Vote from "./Components/Vote";
+import CommunityResources from "./Components/CommunityResources";
 import Events from "./Components/Events";
 
 import {Route, Routes, Link} from "react-router-dom"
@@ -27,13 +27,13 @@ function App() {
         <Route path="/connect" element={<Connect/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/events" element={<Events/>} />
-        <Route path="/platform" element={<Platform/>} />
+        <Route path="/issues" element={<Issues/>} />
         <Route path="/volunteer" element={<Volunteer/>} />
-        <Route path="/vote" element={<Vote/>} />
+        <Route path="/community-resources" element={<CommunityResources />} />
       </Routes>
       
       {/* <About />
-      <Platform />
+      <Issues />
       <EmailList />
       <Donate /> */}
       {/* Socials */}

@@ -19,11 +19,11 @@ const NavLinks = () => {
   return (
     <ul>
       <CurrLink to="/about">About Roxanne</CurrLink>
-      <CurrLink to="/platform">Platform</CurrLink>
+      <CurrLink to="/issues">Issues</CurrLink>
       <CurrLink to="/connect">Get Connected</CurrLink>
       <CurrLink to="/events">Events</CurrLink>
       <CurrLink to="/volunteer">Volunteer</CurrLink>
-      <CurrLink to="/vote">Vote</CurrLink>
+      <CurrLink to="/community-resources">Community Resources</CurrLink>
       <li>
         <a href="https://www.facebook.com/">
           <img  src="/icons8-facebook-f-50.png" alt="Facebook" width="20vw"/>
