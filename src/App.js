@@ -16,11 +16,15 @@ function App() {
 
   return (
     <div >
-      
-      <NavBar />
-      <Link to="/" className="site-title">
+      <Link to="/" >
+        <div className="site-title">
+          {/* <h3 className="roxanne">Roxanne
+          <p className="volkmann"> Volkmann<br />for</p>48</h3> */}
         <img className="main-logo" src="/volkmann-logo.png" alt="Roxanne Volkmann for Ward 48" />
+        </div>
       </Link>
+      <NavBar />
+      
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/donate" element={<Donate/>} />

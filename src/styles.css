@@ -1,385 +1,474 @@
+/* GLOBAL */
 * {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  font-family: 'PT Serif', serif;
 }
 
 body {
-    margin: 0;
-    background-color: lightskyblue;
-    
-}
-
-.main-logo {
-    position: absolute;
-    top: 0;
-    width: 15vw;
+  margin: 0;
+  background-color: #25b6ea;
 }
 
 p {
-    background-color: whitesmoke;
-    padding: 10px;
-    border-radius: 15px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 15px;
 }
 
 h3 {
-    background-color: whitesmoke;
-    padding: 10px;
-    border-radius: 15px;
-    text-align: center;
+  /* background-color: whitesmoke; */
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
+.main-logo {
+  position: absolute;
+  top: 0;
+  width: 15vw;
+}
 
 ::placeholder {
-    color: ee2a26;
-    background-color: whitesmoke;
-    opacity: .5;
+  color: #ee2a26;
+  background-color: whitesmoke;
+  opacity: 0.5;
+}
+
+/* HOME */
+
+.homeheader {
+  margin: 0;
 }
 
 .submitContactButton {
-    background-color: #ee2a26;
-    color: white;
-    border: 0;
+  background-color: #ee2a26;
+  color: #3e3e3e;
+  border: 0;
+  border-radius: 5px;
+  width: 15vw;
+  height: 10vh;
+  font-size: 14px;
+  margin-left: 5vw;
+}
+
+.submitContactButton:hover {
+  background-color: white;
+  border: #ee2a26 solid 2px;
+  color: #1977b1;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
 }
 
 .home {
-    background-image: url("politician-stock-home.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
+  background-image: url("politician-stock-home.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
 }
+
+/* PAGES */
 
 .pageTitle {
-    margin-top: 20%;
+  margin-top: 20%;
+  font-family: "Lato", sans-serif;
 }
 
-.platform {
-    background-image: url("politician-stock-connect.jpeg");
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-color: #1977b1;
-    height: 100vh;
-    width: 100vw;
+.issues {
+  background-image: url("politician-stock-connect.jpeg");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #1977b1;
+  height: 100vh;
+  width: 100vw;
 }
 
-.platform-text {
-    margin-right: 60%;
-    background-color: #1977b1;
-    height: 100vh;
-    color: ee2a26;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: whitesmoke;
-    padding: 10px;
-
+.issues-text {
+  margin-right: 60%;
+  background-color: #1977b1;
+  height: 100vh;
+  color: #ee2a26;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: whitesmoke;
+  padding: 10px;
 }
 
 .about {
-    background-image: url("edgewater-aerial.jpeg");
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-color: #1977b1;
-    height: 100vh;
-    width: 100vw;
+  background-image: url("edgewater-aerial.jpeg");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #1977b1;
+  height: 100vh;
+  width: 100vw;
 }
 
 .about-text {
-    margin-right: 60%;
-    background-color: #1977b1;
-    height: 100vh;
-    color: #ee2a26;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: whitesmoke;
-    padding: 10px;
+  margin-right: 60%;
+  height: 100vh;
+  color: #ee2a26;
+  font-family: 'PT Serif', serif;
+  background-color: whitesmoke;
+  padding: 10px;
 }
 
 .connect {
-    background-image: url("edgewater.jpeg");
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-color: #1977b1;
-    height: 100vh;
-    width: 100vw;
+  background-image: url("edgewater.jpeg");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #1977b1;
+  height: 100vh;
+  width: 100vw;
 }
 
 .connect-text {
-    margin-right: 60%;
-    height: 100vh;
-    color: #ee2a26;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: whitesmoke;
-    padding: 10px;
+  margin-right: 60%;
+  height: 100vh;
+  color: #ee2a26;
+  font-family: 'PT Serif', serif;
+  background-color: whitesmoke;
+  padding: 10px;
 }
 
 .volunteer-text {
     margin-right: 60%;
+    background-color: #1977b1;
     height: 100vh;
     color: #ee2a26;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'PT Serif', serif;
     background-color: whitesmoke;
     padding: 10px;
 }
 
 .donate {
-    background-image: url("edgewater.jpeg");
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-color: #1977b1;
-    height: 100vh;
-    width: 100vw;
+  background-image: url("edgewater.jpeg");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  background-color: #1977b1;
+  height: 100vh;
+  width: 100vw;
 }
 
 .donate-text {
     margin-right: 60%;
-    background-color: #1977b1;
-    padding: 10px;
     height: 100vh;
     color: #ee2a26;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-}
-
-.vote-text {
-    margin-right: 60%;
-    height: 100vh;
-    color: ee2a26;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'PT Serif', serif;
     background-color: whitesmoke;
     padding: 10px;
 }
 
 .events-text {
     margin-right: 60%;
+    background-color: #1977b1;
     height: 100vh;
-    color: ee2a26;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ee2a26;
+    font-family: 'PT Serif', serif;
     background-color: whitesmoke;
     padding: 10px;
 }
 
-
-.homeheader {
-    margin: 0;
+.community-resources {
+  height: 100vh;
+  width: 100vw;
 }
-.nav {
-    background-color: #25b6ea;
-    color: #1977b1;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    justify-content: space-around;
-    align-items:baseline;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-left: 20vw;;
+
+.community-resources-text {
+  margin-right: 60%;
+  background-color: #1977b1;
+  height: 100vh;
+  color: #ee2a26;
+  font-family: 'PT Serif', serif;
+  background-color: whitesmoke;
+  padding: 10px;
 }
 
 .site-title {
-    font-size: 2rem;
+  font-size: 2rem;
+}
+
+/* NAVBAR */
+
+.roxanne {
+  color: #1977b1;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+}
+
+.volkmann {
+  color: #ee2a26;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+
+.nav {
+  background-color: #25b6ea;
+  color: #1977b1;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 20vw;
 }
 
 .nav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-}
-
-.ward {
-    font-size: 1.25rem;
-    padding-left: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
 }
 
 .nav a {
-    color: white;
-    text-decoration: none;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: .25rem;
+  color: #3e3e3e;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
 }
 
 .nav li.active {
-    text-decoration: underline;
-    text-decoration-color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
 }
 
 .nav li:hover {
-    background-color: lightskyblue;
-    border-radius: 5px;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
 }
 
 .navmobile {
-    display: none;
+  display: none;
 }
 
 .smallForm {
-    padding: 2%;
-    margin-left: 50%;
-    margin-top: 20%;
-    font-size: 18px;
-    color: #ee2a26;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #1977b1;
-    border-radius: 5px;
+  padding: 2%;
+  margin-left: 50%;
+  margin-top: 20%;
+  font-size: 18px;
+  color: #ee2a26;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1977b1;
+  border-radius: 5px;
 }
 
 .homeIntro {
-    margin: 0%;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    border-radius: 0;
+  margin: 0%;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  border-radius: 0;
 }
 
 .homeJoin {
-    margin: 0%;
-    font-size: 36px;
-    border-radius: 0;
+  margin: 0%;
+  font-size: 36px;
+  border-radius: 0;
 }
 
 .thankYou {
-    text-align: center;
+  text-align: center;
 }
 
-
-
 .contactForm {
-    margin: 0%;
-    display: flex;
-    justify-content: space-evenly;
+  margin: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
 }
 
 .emailInput {
-    
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  margin: 3px 0;
+  border: 1px solid #3e3e3e;
+  box-sizing: border-box;
 }
+
 .zipInput {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .donate-button {
-    background-color: #ee2a26;
-    color: white;
-    font-size: 1rem;
-    padding: 2vw;
-    margin-top: 5%;
-    border-radius: 5px;
+  background-color: #ee2a26;
+  color: #3e3e3e;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 2vw;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+}
+
+.donate-button:hover {
+  background-color: white;
+  border: #ee2a26 5px;
+  color: #1977b1;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
 }
 
 .donate-button-main {
-    background-color: #ee2a26;
-    font-size: 2rem;
-    color: white;
-    border: whitesmoke;
+  background-color: #ee2a26;
+  width: 15vw;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  color: #3e3e3e;
+  border: whitesmoke;
+  padding: 3vw 2vh;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+}
+
+.donate-button-main:hover {
+  background-color: white;
+  border: #ee2a26 solid 2px;
+  color: #1977b1;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
 }
 
 .contact-form-main {
-    padding: 0;
+  padding: 0;
 }
 
 .donateForm {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40%;
+}
+
+.donation-amount {
+  height: 5vh;
+  width: 20vw;
+  font-size: 1rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 950px) {
+  .nav {
+    padding-left: 12vw;
+    display: flex;
+    justify-content: center;
+  }
+  .nav a {
+    font-size: 1.3vw;
+    padding: 0;
+  }
+
+  .socials {
+    width: 2vw;
+    padding: 0;
+  }
+
+  .donate-button {
+    border-radius: 2px;
+    padding-left: 20px;
+  }
+
+  .donate-button-main {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .navdesktop {
+    display: none;
+  }
+
+  .navmobile {
+    display: flex;
+    align-items: center;
+  }
+
+  .site-title {
+    font-size: 1rem;
+  }
+
+  .ward {
+    font-size: 0.5rem;
+  }
+
+  .hamburger {
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    cursor: pointer;
+    color: #25b6ea;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 30%;
+    background-color: #1977b1;
+  }
+  li {
+    padding-left: 10%;
+  }
+
+  .smallForm {
+    margin-top: 5vh;
+    margin-left: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: left;
+  }
+
+  .emailInput {
+    width: 20%;
+    height: 5%;
+  }
+
+  .homeJoin {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+  }
+
+  .contactForm {
+    margin: 0%;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 40%;
-}
+  }
 
-.donation-amount{
-    height: 5vh;
-    width: 20vw;
+  .main-logo {
+    height: 10vh;
+  }
+
+  
+
+  .donate-button-main {
     font-size: 1rem;
-}
-
-
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none; 
-}
-
-
-@media (max-width:700px) {
-    .navdesktop {
-        display: none;
-    }
-
-    .navmobile {
-        display: flex;
-        align-items: center;
-    }
-
-    .site-title {
-        font-size: 1rem;
-    }
-
-    .ward {
-        font-size: .5rem;
-    }
-
-    .hamburger {
-        position: absolute;
-        right: 5%;
-        top: 2%;
-        cursor: pointer;
-    }
-
-   ul {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 80px;
-        right: 0;
-        width: 30%;
-        background-color: #1977b1;
-    }
-    li {
-        padding-left: 10%;
-    }
-
-    .smallForm {
-        margin-top: 5vh;
-        margin-left: 0%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: left;
-    }
-
-    .emailInput{
-        width: 20%;
-    }
-
-    .zipInput{
-        width: 10%;
-    }
-    
-    .homeJoin {
-        font-size: 14px;
-    }
-
-    .contactForm {
-        margin: 0%;
-        display: flex;
-        justify-content: left
-    }
-
-    .main-logo {
-        height: 10vh;
-    }
-
-    .donate-button {
-        padding-left: 50%;
-    }
+  }
 }

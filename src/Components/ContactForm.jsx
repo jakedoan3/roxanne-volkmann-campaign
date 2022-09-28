@@ -25,12 +25,13 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
+    <div >
       {thankYou? <p className="thankYou">Thank you for your support!</p>: 
       <form onSubmit={submitContact} className="contactForm">
         
           <label className="emailInput">
             <input
+              className="emailInput"
               placeholder="Email*"
               type="email"
               value={email}

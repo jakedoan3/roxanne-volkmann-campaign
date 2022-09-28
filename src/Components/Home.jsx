@@ -12,7 +12,7 @@ const Home = () => {
         
         <p className="homeJoin">Join our campaign!</p>
         <ContactForm />
-        <a href="/donate" className="donate-button">Donate</a>
+        <a href="/donate" className="donate-button-main">Donate</a>
       </div>
     </div>
   );
