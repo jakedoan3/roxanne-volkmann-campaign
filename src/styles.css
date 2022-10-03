@@ -107,12 +107,18 @@ h3 {
 
 .issues-text {
   margin-right: 60%;
-  background-color: #1977b1;
-  height: 100vh;
-  color: #ee2a26;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: whitesmoke;
-  padding: 10px;
+    height: 100%;
+    color: #ee2a26;
+    font-family: 'PT Serif', serif;
+    /* font-size: smaller; */
+    padding: 10px;
+    /* display: inline-block; */
+    overflow: scroll;
+    background-color: white;
+}
+
+.mental-health-list {
+
 }
 
 .about {
@@ -210,6 +216,24 @@ h3 {
 
 .site-title {
   font-size: 2rem;
+}
+
+.issues-dropdown-clicked {
+  width: 10rem;
+  list-style: none;
+  text-align: start;
+}
+
+.issues-dropdown li {
+  background-color: #1977b1;
+  cursor: pointer;
+}
+
+.issues-dropdown {
+  display: none; 
+}
+.issues-dropdown:hover {
+  background-color: #25b6ea;
 }
 
 /* NAVBAR */
@@ -399,6 +423,7 @@ input[type="number"]::-webkit-outer-spin-button {
     padding-left: 12vw;
     display: flex;
     justify-content: center;
+    height: 10vh;
   }
   .nav a {
     font-size: 1.3vw;
@@ -425,6 +450,10 @@ input[type="number"]::-webkit-outer-spin-button {
     display: none;
   }
 
+  .home {
+    height: 100vh;
+  }
+
   .navmobile {
     display: flex;
     align-items: center;
@@ -443,7 +472,7 @@ input[type="number"]::-webkit-outer-spin-button {
     right: 5%;
     top: 2%;
     cursor: pointer;
-    color: #25b6ea;
+    color: #3e3e3e;
   }
 
   ul {
@@ -460,7 +489,7 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 
   .smallForm {
-    margin-top: 5vh;
+    margin-top: 0;
     margin-left: 0%;
     display: flex;
     flex-direction: row;
@@ -493,7 +522,6 @@ input[type="number"]::-webkit-outer-spin-button {
     height: 10vh;
   }
 
-  
 
   .donate-button-main {
     font-size: 1rem;
@@ -505,4 +533,22 @@ input[type="number"]::-webkit-outer-spin-button {
     height: 5vh;
     padding-left: none;
   }
+
+  .photoBar {
+    display: none;
+  }
+
+  .issues-text {
+    margin-right: 40%;
+      height: 100%;
+      color: #ee2a26;
+      font-family: 'PT Serif', serif;
+      font-size: smaller;
+      padding: 10px;
+      display: inline-block;
+      overflow: scroll;
+      background-color: white;
+  }
+  
+
 }

@@ -39,14 +39,6 @@ const ContactForm = () => {
               name="email"
             />
           </label>
-          {/* <label className="zipInput">
-            <input 
-            placeholder="ZIP*"
-            type="number" 
-            value={zip} 
-            onChange={handleZip} 
-            name="zip" />
-          </label> */}
         
           <input 
           className="submitContactButton"
