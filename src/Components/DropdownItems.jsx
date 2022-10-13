@@ -13,14 +13,14 @@ export const DropdownItems = [
          
     },
 
-    {
-        id: 2,
-        title: "Immigration",
-        cName: "immigration",
-        path:"/immigration",
-        header:"Immigration", //h1
-        headercName: "immigration-text", //h1 className
-        body: ""
+    // {
+    //     id: 2,
+    //     title: "Immigration",
+    //     cName: "immigration",
+    //     path:"/immigration",
+    //     header:"Immigration", //h1
+    //     headercName: "immigration-text", //h1 className
+    //     body: ""
          
-    }
+    // }
 ]

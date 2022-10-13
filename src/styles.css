@@ -59,7 +59,7 @@ h3 {
   border: #ee2a26 solid 2px;
   color: #1977b1;
   border-radius: 5px;
-  transition: all 0.2s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .home {
@@ -364,10 +364,10 @@ h3 {
 
 .donate-button:hover {
   background-color: white;
-  border: #ee2a26 ;
+  border: #ee2a26 solid 2px;
   color: #1977b1;
   border-radius: 5px;
-  transition: all 0.2s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .donate-button-main {
@@ -549,6 +549,4 @@ input[type="number"]::-webkit-outer-spin-button {
       overflow: scroll;
       background-color: white;
   }
-  
-
 }

@@ -21,7 +21,9 @@ const Home = () => {
 
         <p className="homeJoin">Join our campaign!</p>
         <ContactForm />
-        <input className="submitContactButton" type="submit" value="Donate" />
+        <a href="https://secure.actblue.com/" className="donate-button">
+            Donate
+          </a>
       </div>
     </div>
   );

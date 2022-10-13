@@ -27,8 +27,9 @@ const NavLinks = (props) => {
           <Link
             to="/issues"
             className="issues-nav"
-            onMouseEnter={() => setDropdown(true)}
-            onMouseLeave={() => setDropdown(false)}
+            // onMouseEnter={() => setDropdown(true)}
+            // onMouseLeave={() => setDropdown(false)}
+            onClick={() => setDropdown(!dropdown)}
           >
             Issues <AiFillCaretDown />
             {dropdown && <Dropdown/>}
@@ -69,11 +70,14 @@ const NavLinks = (props) => {
               width="20vw"
             />
           </a>
+          
         </li>
-
-        <CurrLink to="/donate" className="donate-button">
+        <a href="https://secure.actblue.com/" className="donate-button">
+            Donate
+          </a>
+        {/* <CurrLink to="/donate" className="donate-button">
           Donate
-        </CurrLink>
+        </CurrLink> */}
       </ul>
     </div>
   );
